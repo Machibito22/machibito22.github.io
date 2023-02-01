@@ -1,0 +1,44 @@
+baseURL = "https://machibito22.github.io/"
+languageCode = "en-us"
+title = "Machibito22 Blog"
+copyright = "Guillermo Brito"
+googleAnalytics = "G-HXGQRQZN6R"
+disqusShortname = "machibito22"
+theme = "ananke"
+[languages]
+  [languages.en]
+    title = "Machibito22 Blog"
+    weight = 1
+    contentDir = "content"
+    languageDirection = "lft"
+  [languages.es]
+    title = "Machibito22 Blog"
+    weight = 1
+    contentDir = "content/es"
+    languageDirection = 'lft'    
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+[params]
+  author = "Guillermo Brito"
+  favicon = "/images/favicon.ico"
+  site_logo = "/images/Tux_Crystal_2.png"
+  description = "Guillermo Brito's personal blog"
+  background_color_class = "bg-black"
+  recent_posts_number = 5
+[[params.ananke_socials]]
+name = "facebook"
+url = "https://www.facebook.com/Machibito22"
+[[params.ananke_socials]]
+name = "twitter"
+url = "https://twitter.com/Machibito22"
+[[params.ananke_socials]]
+name = "instagram"
+url = "https://www.instagram.com/machibito22"
+[[params.ananke_socials]]
+name = "mastodon"
+url = "https://fosstodon.org/@Machibito22"
+[[params.ananke_socials]]
+name = "github"
+url = "https://github.com/Machibito22"
